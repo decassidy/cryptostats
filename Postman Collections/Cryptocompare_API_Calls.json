@@ -1,0 +1,410 @@
+{
+  "info": {
+    "_postman_id": "a7f37f2f-5df9-2397-5454-300af548e52e",
+    "name": "Cryptocompare API Calls",
+    "description": "This collection is to pull cryptocurrency API calls from cryptocompare.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "BTC-USD Price",
+      "_postman_id": "46cf98bc-c8d9-6b41-370d-9049489a9ed9",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": []
+        },
+        "url": {
+          "raw": "https://min-api.cryptocompare.com/data/price?fsym=BTC&tsyms=USD",
+          "protocol": "https",
+          "host": [
+            "min-api",
+            "cryptocompare",
+            "com"
+          ],
+          "path": [
+            "data",
+            "price"
+          ],
+          "query": [
+            {
+              "key": "fsym",
+              "value": "BTC",
+              "description": "Bitcoin"
+            },
+            {
+              "key": "tsyms",
+              "value": "USD",
+              "description": "United States Dollar"
+            }
+          ]
+        },
+        "description": "This is to get the current Bitcoin to USD conversion."
+      },
+      "response": []
+    },
+    {
+      "name": "ETH-USD Price",
+      "_postman_id": "bfd161d5-f87c-3fca-c2f3-9ceda199942b",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": []
+        },
+        "url": {
+          "raw": "https://min-api.cryptocompare.com/data/price?fsym=BTC&tsyms=USD",
+          "protocol": "https",
+          "host": [
+            "min-api",
+            "cryptocompare",
+            "com"
+          ],
+          "path": [
+            "data",
+            "price"
+          ],
+          "query": [
+            {
+              "key": "fsym",
+              "value": "BTC",
+              "description": "Bitcoin"
+            },
+            {
+              "key": "tsyms",
+              "value": "USD",
+              "description": "United States Dollar"
+            }
+          ]
+        },
+        "description": "This is to get the current Bitcoin to USD conversion."
+      },
+      "response": []
+    },
+    {
+      "name": "BTC-EUR Price",
+      "_postman_id": "1e94e8df-1370-aa93-1484-904f122b6332",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": []
+        },
+        "url": {
+          "raw": "https://min-api.cryptocompare.com/data/price?fsym=BTC&tsyms=EUR",
+          "protocol": "https",
+          "host": [
+            "min-api",
+            "cryptocompare",
+            "com"
+          ],
+          "path": [
+            "data",
+            "price"
+          ],
+          "query": [
+            {
+              "key": "fsym",
+              "value": "BTC",
+              "description": "Bitcoin"
+            },
+            {
+              "key": "tsyms",
+              "value": "EUR",
+              "description": "Euro"
+            }
+          ]
+        },
+        "description": "This is to get the current Bitcoin to USD conversion."
+      },
+      "response": []
+    },
+    {
+      "name": "ETH-EUR Price",
+      "_postman_id": "06df8a59-d35b-2e42-079c-4011f6a7c5da",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": []
+        },
+        "url": {
+          "raw": "https://min-api.cryptocompare.com/data/price?fsym=BTC&tsyms=EUR",
+          "protocol": "https",
+          "host": [
+            "min-api",
+            "cryptocompare",
+            "com"
+          ],
+          "path": [
+            "data",
+            "price"
+          ],
+          "query": [
+            {
+              "key": "fsym",
+              "value": "BTC",
+              "description": "Bitcoin"
+            },
+            {
+              "key": "tsyms",
+              "value": "EUR",
+              "description": "Euro"
+            }
+          ]
+        },
+        "description": "This is to get the current Bitcoin to USD conversion."
+      },
+      "response": []
+    },
+    {
+      "name": "BTC-GBP Price",
+      "_postman_id": "ec920a14-4418-f709-ba2f-7c5e9488e86b",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": []
+        },
+        "url": {
+          "raw": "https://min-api.cryptocompare.com/data/price?fsym=BTC&tsyms=GBP",
+          "protocol": "https",
+          "host": [
+            "min-api",
+            "cryptocompare",
+            "com"
+          ],
+          "path": [
+            "data",
+            "price"
+          ],
+          "query": [
+            {
+              "key": "fsym",
+              "value": "BTC",
+              "description": "Bitcoin"
+            },
+            {
+              "key": "tsyms",
+              "value": "GBP",
+              "description": "British Pound"
+            }
+          ]
+        },
+        "description": "This is to get the current Bitcoin to USD conversion."
+      },
+      "response": []
+    },
+    {
+      "name": "ETH-GBP Price",
+      "_postman_id": "ceae8298-5f67-f8d0-c819-f1b997250f10",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": []
+        },
+        "url": {
+          "raw": "https://min-api.cryptocompare.com/data/price?fsym=BTC&tsyms=GBP",
+          "protocol": "https",
+          "host": [
+            "min-api",
+            "cryptocompare",
+            "com"
+          ],
+          "path": [
+            "data",
+            "price"
+          ],
+          "query": [
+            {
+              "key": "fsym",
+              "value": "BTC",
+              "description": "Bitcoin"
+            },
+            {
+              "key": "tsyms",
+              "value": "GBP",
+              "description": "British Pound"
+            }
+          ]
+        },
+        "description": "This is to get the current Bitcoin to USD conversion."
+      },
+      "response": []
+    },
+    {
+      "name": "BTC-BRL Price",
+      "_postman_id": "a86c40be-bb57-dba0-ae00-0c781a179615",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": []
+        },
+        "url": {
+          "raw": "https://min-api.cryptocompare.com/data/price?fsym=BTC&tsyms=BRL",
+          "protocol": "https",
+          "host": [
+            "min-api",
+            "cryptocompare",
+            "com"
+          ],
+          "path": [
+            "data",
+            "price"
+          ],
+          "query": [
+            {
+              "key": "fsym",
+              "value": "BTC",
+              "description": "Bitcoin"
+            },
+            {
+              "key": "tsyms",
+              "value": "BRL",
+              "description": "Brazilian Real"
+            }
+          ]
+        },
+        "description": "This is to get the current Bitcoin to USD conversion."
+      },
+      "response": []
+    },
+    {
+      "name": "ETH-BRL Price",
+      "_postman_id": "dc899d09-cfbc-e161-19dc-f496493ba82d",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": []
+        },
+        "url": {
+          "raw": "https://min-api.cryptocompare.com/data/price?fsym=BTC&tsyms=BRL",
+          "protocol": "https",
+          "host": [
+            "min-api",
+            "cryptocompare",
+            "com"
+          ],
+          "path": [
+            "data",
+            "price"
+          ],
+          "query": [
+            {
+              "key": "fsym",
+              "value": "BTC",
+              "description": "Bitcoin"
+            },
+            {
+              "key": "tsyms",
+              "value": "BRL",
+              "description": "Brazilian Real"
+            }
+          ]
+        },
+        "description": "This is to get the current Bitcoin to USD conversion."
+      },
+      "response": []
+    },
+    {
+      "name": "BTC-USD Market Day Avg",
+      "_postman_id": "744ab748-8cd6-e103-a7df-65621c6efaf5",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": []
+        },
+        "url": {
+          "raw": "https://min-api.cryptocompare.com/data/generateAvg?fsym=BTC&tsym=USD&markets=Coinbase,Gemini,Bitfinex,Poloniex",
+          "protocol": "https",
+          "host": [
+            "min-api",
+            "cryptocompare",
+            "com"
+          ],
+          "path": [
+            "data",
+            "generateAvg"
+          ],
+          "query": [
+            {
+              "key": "fsym",
+              "value": "BTC",
+              "description": "Bitcoin"
+            },
+            {
+              "key": "tsym",
+              "value": "USD",
+              "description": "USD"
+            },
+            {
+              "key": "markets",
+              "value": "Coinbase,Gemini,Bitfinex,Poloniex",
+              "description": "Exchanges"
+            }
+          ]
+        },
+        "description": "This is to get the current Bitcoin to USD conversion."
+      },
+      "response": []
+    },
+    {
+      "name": "ETH-USD Market Day Avg",
+      "_postman_id": "dfb89967-b651-14f5-f1e1-bc10903848ef",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": []
+        },
+        "url": {
+          "raw": "https://min-api.cryptocompare.com/data/generateAvg?fsym=BTC&tsym=USD&markets=Coinbase,Gemini,Bitfinex,Poloniex",
+          "protocol": "https",
+          "host": [
+            "min-api",
+            "cryptocompare",
+            "com"
+          ],
+          "path": [
+            "data",
+            "generateAvg"
+          ],
+          "query": [
+            {
+              "key": "fsym",
+              "value": "BTC",
+              "description": "Bitcoin"
+            },
+            {
+              "key": "tsym",
+              "value": "USD",
+              "description": "USD"
+            },
+            {
+              "key": "markets",
+              "value": "Coinbase,Gemini,Bitfinex,Poloniex",
+              "description": "Exchanges"
+            }
+          ]
+        },
+        "description": "This is to get the current Bitcoin to USD conversion."
+      },
+      "response": []
+    }
+  ]
+}
